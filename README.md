@@ -11,7 +11,7 @@ pagina web de 4°cuatrimestre para ICONOS
   - Imagen de proyecto con copy en grande
 - Descripción
   - Objetivo
-- Video (recorrido)
+- Video (recorrido 3D)
 - 360 de artefactos (gif)
   - Hover con descripción
     - Link (planos de objetos)
