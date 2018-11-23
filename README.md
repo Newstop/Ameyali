@@ -7,7 +7,6 @@ pagina web de 4°cuatrimestre para ICONOS
 - Header (fixed)
   - Logotipo
   - Botones
-   - hover cambio de color
 - Hero Screen
   - Imagen de proyecto con copy
 - Descripción
@@ -15,5 +14,5 @@ pagina web de 4°cuatrimestre para ICONOS
 - Video (recorrido)
 - 360 de artefactos (gif)
   - Hover con descripción
-   - Link (planos de objetos)
+    - Link (planos de objetos)
 - Invitación (video funcionamiento)
