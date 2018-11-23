@@ -1,6 +1,6 @@
 
 # AMEYALI
-pagina web de 4°cuatrimestre para ICONOS
+Página web de 4°cuatrimestre para ICONOS
 
 #### Home (one page)
 
