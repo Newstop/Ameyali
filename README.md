@@ -6,7 +6,7 @@ pagina web de 4°cuatrimestre para ICONOS
 
 - Header (fixed)
   - Logotipo
-  - Botones
+  - Botones (4)
 - Hero Screen
   - Imagen de proyecto con copy
 - Descripción
