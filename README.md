@@ -8,7 +8,7 @@ pagina web de 4°cuatrimestre para ICONOS
   - Logotipo
   - Botones (4)
 - Hero Screen
-  - Imagen de proyecto con copy
+  - Imagen de proyecto con copy en grande
 - Descripción
   - Objetivo
 - Video (recorrido)
