@@ -18,3 +18,5 @@ Página web de 4°cuatrimestre para ICONOS
 - Video (recorrido 3D)
 - 360 de artefactos (gif)
   - Hover con descripción
+  ![](img/wireframe_ameyali.jpg)
+![](img/diseño_sitioweb.jpg)
