@@ -13,7 +13,7 @@ Página web de 4°cuatrimestre para ICONOS
 - Descripción
   - Objetivo (4 parrafos)
     - imagen de un penacho a la izquierda
-- Leyenda (8 parrafos)
+- Leyenda (10 parrafos)
   - imagen de la malinche con penacho
 - Video (recorrido 3D)
 - 360 de artefactos (gif)
