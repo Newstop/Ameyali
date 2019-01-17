@@ -101,7 +101,6 @@ function imgLiquid() {
     fill:false,
     horizontalAlign:'right'
   })
-  
-  <div id="map" class="col-12 col-lg-6 text-center"></div>
+
 
 
