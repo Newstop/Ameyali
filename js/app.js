@@ -2,8 +2,9 @@
 // $ = conflict mode
 // inicializacion
 // jQuery(document)
-$(document).ready( () => {
+$(document).ready( ()=>{
 
+imgLiquid()
   // alert("ALERTAAAAA!! VAMOS A MORIRRR")
 
   // alert(suma(10,10))
@@ -14,13 +15,9 @@ $(document).ready( () => {
 // regresa()
 // fondo('lime')
 // ancho()
-imgLiquid()
-slider_inicio()
-// colores_fondo(1000,["#3465fa","purple","black","yellow","lime","orange"])
 
-// Scripts tema
+colores_fondo(250,["#F6A949"])
 
-//
 } )
 
 
@@ -83,24 +80,24 @@ function colores_fondo(time=1000,colorArray=['purple','red']) {
     $('body').css('background-color',colorArray[i])
   },time)
 
+  // return i
 }
+   
 
-// Scripts tema
-// control de imagenes
-function imgLiquid() {
-
-  $('.imgLiquid.imgLiquidFill').imgLiquid()
-  $('.imgLiquid.imgLiquidNoFill').imgLiquid({
-    fill:false
-  })
-  $('.imgLiquid.imgLiquidNoFillLeft').imgLiquid({
-    fill:false,
+function imgLiquid(){
+    
+    $('.imgLiquid.imgLiquidFill').imgLiquid()
+     $('.imgLiquid.imgLiquidNoFill').imgLiquid({
+     fill:false,
+})
+      
+    $('.imgLiquid.imgLiquidNoFillLeft').imgLiquid({
+     fill:false,
     horizontalAlign:'left'
-  })
-  $('.imgLiquid.imgLiquidNoFillRight').imgLiquid({
-    fill:false,
+})
+      $('.imgLiquid.imgLiquidNoFillRight').imgLiquid({
+     fill:false,
     horizontalAlign:'right'
-  })
+})
 
-
-
+}

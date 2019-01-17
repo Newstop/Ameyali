@@ -1,6 +1,6 @@
 /* wireframe */
 * {
-  /* outline: 1px solid black; */
+  /*outline: 1px solid black; */
 }
 /* variables */
 :root {
@@ -10,7 +10,7 @@
   --color-link-hover: #f00000;
   --altura-header: 75px;
   --altura-seccion: 100vh;
-  --color-oscuro:black; 
+  --color-oscuro:black;
 }
 /* resets */
 body {
@@ -24,11 +24,10 @@ a {
   display: block;
   height: 100%;
   width: 100%;
-    color:#4ECBC3 ;
+    color: #4ECBC3;
 }
 p{
     color: white;
-    font-size: 2em;
 }
 ul {
   list-style-type: none;
@@ -36,23 +35,14 @@ ul {
 h1, h2, h3, h4, h5, h6 {
   padding: 16px 0 16px 0;
     color:white;
-    
 }
-
-.col text center pe{
-    font-size: 2em;
-   
-}
-
-.texto{
-    margin-top: 200px;}
 form {
   margin-bottom: 16px;
 }
 .ha {
   height: auto;
 }
-#main,#info, #ubicacion, #participantes {
+#main,#info, #ubicacion, #participantes, #man {
   padding-top: var(--altura-header);
 }
 /* header */
@@ -74,7 +64,7 @@ figure img {
   width: auto; 
 }
 /* body */
-#heroscreen, #info, #ubicacion {
+#heroscreen, #info, #ubicacion, #man {
   min-height: var(--altura-seccion);
 }
 /* heroscreen */
@@ -82,11 +72,11 @@ figure img {
   position: relative;
     padding-left: 0;
     padding-right: 0;
-    background-color:  #F6A949;
 }
 .heroscreen_background {
   position: absolute;
   padding: 0;
+    background-color: #F6A949;
 }
 .heroscreen_background img {
   height: 100%;
@@ -111,6 +101,10 @@ figure img {
 /* info */
 #info{
     background-color: #4ECBC3;
+}
+
+#man{
+    background-color: #F6A949; 
 }
 /*  */
 /* Participantes */
@@ -148,21 +142,19 @@ figure img {
 /* Ubucacion */
 #ubicacion {
   overflow: hidden;
-      background-color:  #0AAFAB;
-  
+      background-color: #515D6B;
 }
 
 #map  {
  
   height: 100%;
     padding: 0;
-
    
 }
 /* footer */
 footer {
   height: var(--altura-header);
-    background-color: #F6A949;
+    background-color:#fff; 
 }
 .social {
   font-size: 2em
@@ -171,6 +163,11 @@ footer {
   padding: 0;
   margin: 0;
 }
+
+
+
+
+
 
 
 
