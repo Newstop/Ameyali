@@ -16,6 +16,7 @@
 body {
   /* background-color: black; */
 } 
+
 div, section, article, ul, nav { 
   height: 100%;
      
@@ -28,6 +29,7 @@ div, section, article, ul, nav {
     margin-left: auto;
     margin-right: auto;
 }
+
 a {
   display: block;
   height: 100%;
@@ -45,6 +47,9 @@ h1, h2, h3, h4, h5, h6 {
     color:white;
 }
 
+form {
+  margin-bottom: 16px;
+}
 .ha {
   height: auto;
 }
@@ -103,6 +108,18 @@ background-size: cover;
   height: auto;
     cursor: pointer;
     min-height: auto;
+  position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+.heroscreen_background {
+  position: absolute;
+  padding: 0;
+    background-color: #F6A949;
+}
+.heroscreen_background img {
+  height: 100%;
+  width: 100%;
 }
 .heroscreen_text-container {
     height: var(--altura-seccion);
@@ -128,6 +145,8 @@ background-size: cover;
 #man{
     background-color:  #4ECBC3; 
 }
+
+
 /*  */
 /* Participantes */
 .participantes_item {
@@ -135,7 +154,6 @@ background-size: cover;
   overflow: hidden;
   position: relative;
   padding: 0;
-    background-color:#FF6B6B; 
 }
 .participantes_item_back {
   position: absolute;
