@@ -1,0 +1,200 @@
+/* wireframe */
+* {
+  /*outline: 1px solid black; */
+}
+/* variables */
+:root {
+  --color-primario: #00ff00;
+  --color-secundario: #0ff000;
+  --color-link: #ff0000;
+  --color-link-hover: #f00000;
+  --altura-header: 75px;
+  --altura-seccion: 100vh;
+  --color-oscuro:black;
+}
+/* resets */
+body {
+  /* background-color: black; */
+} 
+div, section, article, ul, nav { 
+  height: 100%;
+     
+}
+
+.container-fluid{
+    width: 100%;
+    padding-right: 15px;
+    padding-left:15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+  display: block;
+  height: 100%;
+  width: 100%;
+    color: #4ECBC3;
+}
+p{
+    color: white;
+}
+ul {
+  list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 16px 0 16px 0;
+    color:white;
+}
+
+.ha {
+  height: auto;
+}
+#main,#info, #ubicacion, #participantes, #man {
+  padding-top: var(--altura-header);
+}
+/* header */
+header {
+width: 100%;
+  height: var(--altura-header);
+  position: fixed;
+  z-index: 10000;
+  background-color: #fff;
+}
+figure {
+  height: 100%;
+  display: block;
+  margin: 0;
+}
+figure img {
+  display: block;
+  margin: auto;
+  height: 100%;
+  width: auto; 
+}
+
+
+/* body */
+#heroscreen, #info, #ubicacion, #man {
+  min-height: var(--altura-seccion);
+}
+/* heroscreen */
+#heroscreen {
+    width: 100%;
+    height: 100%;
+}
+
+.heroscreen_background img {
+  height: 100%;
+  width: 100%;
+background-size: cover;
+}
+
+.recorrido2{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.video {
+
+  position: relative;
+ z-index: 1000;
+  width: 100%;
+  height: auto;
+    cursor: pointer;
+    min-height: auto;
+}
+.heroscreen_text-container {
+    height: var(--altura-seccion);
+}
+.heroscreen_text {
+  position: absolute;
+  left: 0;
+  z-index: 1000;
+}
+.heroscreen_text h1 {
+  font-size: 6em
+}
+.heroscreen_text h3 {
+  font-size: 4em
+}
+
+
+/* info */
+#info{
+    background-color:#F6A949;
+}
+
+#man{
+    background-color:  #4ECBC3; 
+}
+/*  */
+/* Participantes */
+.participantes_item {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+    background-color:#FF6B6B; 
+}
+.participantes_item_back {
+  position: absolute;
+  padding: 0;
+  width: 100%;
+}
+.participantes_item_back img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+}
+.participantes_item_text {
+  position: absolute;
+    z-index: 0;}
+    
+    .color-oscuro{
+        color: var(--color-oscuro)
+    }
+
+
+
+
+/* Ubucacion */
+#ubicacion {
+  overflow: hidden;
+      background-color: #515D6B;
+}
+
+#map  {
+ 
+  height: 100%;
+    padding: 0;
+   
+}
+/* footer */
+footer {
+  height: var(--altura-header);
+    background-color:#fff; 
+}
+.social {
+  font-size: 2em
+}
+.social ul {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
