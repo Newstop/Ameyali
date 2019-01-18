@@ -146,6 +146,25 @@ background-size: cover;
     background-color:  #4ECBC3; 
 }
 
+.penacho2{
+    height: 450px;
+}
+
+.leyenda{
+    padding-top: 20px;
+}
+
+.leyendatitulo{
+    padding-top: 100px;
+}
+
+.imgmalinche{
+    padding-top: 80px;
+}
+
+.objetivo{
+    padding-top: 150px;
+}
 
 /*  */
 /* Participantes */
@@ -176,8 +195,14 @@ background-size: cover;
         color: var(--color-oscuro)
     }
 
+.info_venue{
+    min-height: 50vh;
+}
 
-
+iframe{
+    width: 100%;
+    height: 100%;
+}
 
 /* Ubucacion */
 #ubicacion {

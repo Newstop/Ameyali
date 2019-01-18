@@ -4,7 +4,7 @@
 // jQuery(document)
 $(document).ready( ()=>{
 
-    
+    imgLiquid()
 
 } )
 
